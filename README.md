@@ -12,7 +12,7 @@ Tentative Deadline(Personal)
         May 9-May 13 ---> Build the NTM model. Try MANN similarly(same structure for controller, 				  different method for writing into memory)
         May 13-May 20 ---> Implementing the paper. 
 
-- [] May 6:- complete DL Course 5
-- [] May 7:- Change LSTM model(Controller part)
-- [] May 8:- --------------""------------------
+- [ ] May 6:- complete DL Course 5
+- [ ] May 7:- Change LSTM model(Controller part)
+- [ ] May 8:- --------------""------------------
 
