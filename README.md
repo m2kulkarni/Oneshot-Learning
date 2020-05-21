@@ -1,12 +1,12 @@
 # Few-shot Learning
 
 ### Task Walkthroug
-[.] Read Deep Learning For Python(Francois. Chollet) Book for keras
-[ ] Implement Paper1 - Grad^2
-[ ] Try to include Paper2 in Paper1
-[ ] Read codes for Siamese(Paper3) and Prototypical(Paper4)
-[ ] Implement Paper7 - MANN.
-[ ] Future implement Meta-SGD, MAML, CAML, Matching,Relation Networks, New Papers
+- [x] Read Deep Learning For Python(Francois. Chollet) Book for keras
+- [ ] Implement Paper1 - Grad^2
+- [ ] Try to include Paper2 in Paper1
+- [ ] Read codes for Siamese(Paper3) and Prototypical(Paper4)
+- [ ] Implement Paper7 - MANN.
+- [ ] Future implement Meta-SGD, MAML, CAML, Matching,Relation Networks, New Papers
 
 ### Papers and Implementation
 1. [Learning to learn by gradient descent by gradient descent](https://arxiv.org/pdf/1606.04474.pdf)
