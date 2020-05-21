@@ -1,6 +1,6 @@
 # Few-shot Learning
 
-### Task Walkthroug
+### Task Walkthrough
 - [x] Read Deep Learning For Python(Francois. Chollet) Book for keras
 - [ ] Implement Paper1 - Grad^2
 - [ ] Try to include Paper2 in Paper1
