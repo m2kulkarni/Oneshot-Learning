@@ -1,18 +1,22 @@
 # Few-shot Learning
 
-### Task Walkthrough
-1. Build a LSTM model to do tasks similar to omniglot
-2. Build a NTM with read/write heads to improve performance for one-shot learning
-3. Implement the paper, i.e. build a Memory augmented Neural Network
-4. Future progress- more work on memory use. Use GRU/peephole LSTM for controller task.
+### Task Walkthroug
+[.] Read Deep Learning For Python(Francois. Chollet) Book for keras
+[ ] Implement Paper1 - Grad^2
+[ ] Try to include Paper2 in Paper1
+[ ] Read codes for Siamese(Paper3) and Prototypical(Paper4)
+[ ] Implement Paper7 - MANN.
+[ ] Future implement Meta-SGD, MAML, CAML, Matching,Relation Networks, New Papers
 
 ### Papers and Implementation
-1. Paper 1:- learning to learn by gradient descent
-2. Paper 2:- Optimization model for few shot Learning - Build a LSTM model
-3. Paper 3:- Siamese Network- 1. Face Recognition, 2. Audio Recognition
-4. Prototypical Networks
-5. Relation and Matching Networks
-6. MANN
-7. MAML
-8. Meta-SGD and Reptile
-9. Imitation Learning
+1. [Learning to learn by gradient descent by gradient descent](https://arxiv.org/pdf/1606.04474.pdf)
+2. [Optimization as a model for few-shot learning](https://openreview.net/pdf?id=rJY0-Kcll)
+3. [Siamese Networks](https://www.cs.cmu.edu/~rsalakhu/papers/oneshot1.pdf)
+4. [Prototypical Network](https://arxiv.org/abs/1703.05175)
+5. [Learning to Compare: Relation Network for Few-Shot Learning](https://arxiv.org/abs/1711.06025)
+6. [Matching Networks for one shot Learning](https://arxiv.org/abs/1606.04080)
+7. [MANN](https://arxiv.org/pdf/1605.06065v1.pdf)
+8. [MAML](https://arxiv.org/abs/1703.03400)
+9. [Meta -SGD](https://arxiv.org/abs/1707.09835)
+10. [Reptile](https://d4mucfpksywv.cloudfront.net/research-covers/reptile/reptile_update.pdf)
+11. [Meta Imitation Learning](https://arxiv.org/abs/1709.04905)
