@@ -10,7 +10,6 @@ root_dir=sys.argv[1]
 
 split_file=sys.argv[2]
 
-save_file_name=sys.argv[3]
 dataset_split_path=os.path.join(root_dir, split_file)
 
 with open(dataset_split_path, 'r') as split:
@@ -41,9 +40,4 @@ for label, name in enumerate(train_classes):
         values = 1. - np.array(Image.open(img_file).rotate(rotation).resize((img_width, img_height)), np.float32, copy=False)
         dataset[label, index] = values
 
-        if label==100:
-            im=Image.fromarray(dataset[label][index])
-            im=im.convert("L")
-            im.save('img'+str(index)+'.png')
-
-np.save(save_file_name, dataset)
+np.save('omniglot', dataset)
