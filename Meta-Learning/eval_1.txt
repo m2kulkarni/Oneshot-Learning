@@ -1,0 +1,32 @@
+Omniglot Memory Augmented
+
+Objective:- the main objective of this subteam was to implement the paper
+Meta Learning with memory augmented neural network(Santoro et. al). 
+
+Literature Survey:- Memory augmented neural networks are based on Neural
+turing machines which serve as external memory for our neural network model.
+The network has the ability to read frm selected memory locations and ability
+to write to selected locations, which makes it a perfect candidate for low-shot
+predictions.
+
+Implementation
+
+Current Approach is to implement models that perform meta learning tasks,
+with/without memory modules. RNN based models such as LSTM, are also a type of
+internal memory modules which can be used to perform meta learning tasks. NTM
+and MANN are two of the latest approaches to solve the short term memory
+problem.
+NTM is composed of a neural network which has the ability to store and retrieve
+information from the memory. It basically has three components controller, memory and read and write heads. Memory augmented neural network (MANN) is a variant of NTM which is extensively used for 
+one-shot learning it is designed to make NTM perform better at one-shot
+learning tasks. NTM uses content and location based lookup to address the
+memory while MANN uses a access module called LURA
+
+
+Progress:-
+LSTM- Currently we are working on using LSTM as an optimizer network for our NN
+model such that it has a faster Gradient Descent. This optimization will then
+be used for few-shot learning tasks with the omniglot dataset
+MANN- We are using an addressing scheme called Least recently used access(LURA) for MANN,
+so here we are perfoming content based addressing for reading and write to the least 
+recently used location, this design in turn perform better at one-shot learning.

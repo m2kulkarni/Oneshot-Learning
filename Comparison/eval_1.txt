@@ -1,0 +1,27 @@
+Literature Survey
+
+GANs:- Generative Adversarial Networks(Goodfellow et. al) are dubbed as one of
+the coolest models in Machine Learning. Two neural networks contest with each
+other in a game. Given a training set, this technique learns to generate new
+data with the same statistics as the training set. Many SOTA GAN models like
+infoGAN, styleGAN, cycleGAN, have had a great influence in Machine Learning
+
+Implementation
+GANs:- GANs are basically two neural networks Generative network, which
+generates candidates, and discriminative network, which evaluates them. The
+generative model is typically a deconvolutional neural network, and the
+discriminator is a convolutional neural network. The generative network tries
+to fool the discriminator network by producing images similar to input space.
+
+Progress
+GAns:- Initially to understand GANs, i tried implementing a GAN using only
+numpy. This model performed quite well on the MNIST dataset with only 1
+labelled image. But didn't work well with the full 10 labelled MNIST. This led
+to implementation of a Deep Convolutional GAN(DCGAN). This model worked well
+with Full MNIST dataset. But not quite well with Omniglot dataset due to
+smaller latent space. Next tasks include implementing GANs that work with very
+small dataset.
+
+Skills Learned
+1. Handling of datasets in python
+2. Using tensorflow and google colab for deep learning tasks
