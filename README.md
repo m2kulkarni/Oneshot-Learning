@@ -1,6 +1,9 @@
 # Few-shot Learning
 
+[Project Poster](EvaluationFinal/omniglot_poster%20(1).pdf)
+
 [Final Paper](EvaluationFinal/The%20Omniglot%20Challenge%20-%20Report.pdf)
+
 
 ### Task Walkthrough
 - [x] Read Deep Learning For Python(Francois. Chollet) Book for keras
